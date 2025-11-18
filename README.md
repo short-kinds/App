@@ -14,26 +14,27 @@ Multiplexer (MUX) 를 통해 쇼츠의 스트리밍 서비스를 지원하고, s
 ## 📄 supabase에 입력되는 json 파일 예시
 
 ```
-{
-  "logical_id": "son",
-  "title": "‘SON톱’ 첫 선발 경기서 데뷔골 대신 ‘데뷔 어시스트’···MLS 팬 사로잡은 손흥민",
+ {
+  "logical_id": "01100901.20250821164323001",
+  "title": "SK 최태원, 빌 게이츠 만나…백신 개발·SMR 협력 방안 짠다",
   "outlet_name": "경향신문",
-  "reporter": "박정민",
-  "category": "스포츠",
-  "trust_score": 89,
-  "published_at": "2025-08-17",
+  "reporter": "최선을",
+  "category": "IT_과학",
+  "trust_score": 90,
+  "published_at": "2025-08-21",
+  "url" : "https://www.joongang.co.kr/article/25360706",
   "mux": {
-    "playback_id": "https://stream.mux.com/VlWLJQdq3PaVte004vXgBH94FoNSiplXlbcKQIVdqCHc.m3u8",
+    "playback_id": "https://stream.mux.com/8nIbMHXNeRm9W3jmrVIguxrpyqh01sePXUE02Xfqt2iIg.m3u8",
     "playback_policy": "public",
-    "duration_seconds": 42
+    "duration_seconds": 38
   },
   "quiz": {
-    "question": "손흥민이 17일 출전한 뉴잉글랜드 레볼루션과의 원정 경기의 스코어는?",
+    "question": "SK그룹이 협력한 기관은?",
     "options": [
-      "1:0",
-      "2:0",
-      "2:1",
-      "3:0"
+      "이천",
+      "게이츠",
+      "SK바이오",
+      "AI"
     ],
     "answer_index": 1,
     "cta_top": false,
@@ -113,6 +114,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
 
 
 
