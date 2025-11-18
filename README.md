@@ -9,6 +9,7 @@
 
 ## ✔ App 부분 전체 흐름 (Overall Flow)
 Multiplexer (MUX) 를 통해 쇼츠의 스트리밍 서비스를 지원하고, supabase를 통하여 만든 쇼츠들의 MUX 링크, quiz, category 등의 정보들과 회원들의 활동, point, 좋아요와 찜 내역 등의 개인 정보들을 관리한다.
+
 또한, Flutter와 Android Studio를 통하여 가상 android 환경과 실제 android 환경에서 app이 동작할 수 있도록 하였다.
 
 ## 📄 supabase에 입력되는 json 파일 예시
@@ -114,6 +115,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
 
 
 
