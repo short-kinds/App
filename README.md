@@ -6,6 +6,42 @@
   <img src="[여기에 로고나 대표 이미지를 넣어주세요]" width="400">
 </p> -->
 
+
+## ✔ App 부분 전체 흐름 (Overall Flow)
+Multiplexer (MUX) 를 통해 쇼츠의 스트리밍 서비스를 지원하고, supabase를 통하여 만든 쇼츠들의 MUX 링크, quiz, category 등의 정보들과 회원들의 활동, point, 좋아요와 찜 내역 등의 개인 정보들을 관리한다.
+또한, Flutter와 Android Studio를 통하여 가상 android 환경과 실제 android 환경에서 app이 동작할 수 있도록 하였다.
+
+## 📄 supabase에 입력되는 json 파일 예시
+
+```
+{
+  "logical_id": "son",
+  "title": "‘SON톱’ 첫 선발 경기서 데뷔골 대신 ‘데뷔 어시스트’···MLS 팬 사로잡은 손흥민",
+  "outlet_name": "경향신문",
+  "reporter": "박정민",
+  "category": "스포츠",
+  "trust_score": 89,
+  "published_at": "2025-08-17",
+  "mux": {
+    "playback_id": "https://stream.mux.com/VlWLJQdq3PaVte004vXgBH94FoNSiplXlbcKQIVdqCHc.m3u8",
+    "playback_policy": "public",
+    "duration_seconds": 42
+  },
+  "quiz": {
+    "question": "손흥민이 17일 출전한 뉴잉글랜드 레볼루션과의 원정 경기의 스코어는?",
+    "options": [
+      "1:0",
+      "2:0",
+      "2:1",
+      "3:0"
+    ],
+    "answer_index": 1,
+    "cta_top": false,
+    "seconds_before_end": 5
+  }
+}
+```
+
 ## 🤔 프로젝트 개요 (Problem)
 
 긴 기사에 대한 부담감과 뉴스에 대한 관심 부족은 현대 사회의 뉴스 소비 감소로 이어지고 있습니다. **숏카인즈**는 이러한 문제를 해결하기 위해 숏폼 콘텐츠 형식으로 뉴스를 제공하여 사용자들이 쉽고 재미있게 세상 소식을 접할 수 있도록 돕습니다.
@@ -77,6 +113,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
 
 
 
